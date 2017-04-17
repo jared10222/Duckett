@@ -1,0 +1,59 @@
+
+
+
+/* Start custom CSS*/
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+p {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+  #content {
+    overflow: auto;
+  }
+  #nav, #feature, #footer {
+    margin: 1%;
+  }
+  .column1, .column2, .column3, .column4 {
+    width: 24.9%;
+    float: left;
+    margin: 1%
+  }
+  .column4 {
+    margin-right: 0%;
+  }
+
+  li {
+    display: inline;
+    padding: 0.5em;
+  }
+
+  #nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+  }
+
+  #feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+  }
+
+  body {
+    background-image: url("img/header_background.jpg");
+    background-size:cover;
+  }
